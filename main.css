@@ -1,4 +1,4 @@
-
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 a.navbar-brand{
     margin-left: 15%;
@@ -7,26 +7,33 @@ a.navbar-brand{
     margin-right: 15%;
 }
 
-.jumbotron {
-color: white;
-background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 60vh;
+a.navbar-brand{font-family: Arial , Helvetica, Franklin Gothic Medium;}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
 }
 
-.jumbotron-image {
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
+ul{
+	list-style: none;
 }
 
-.customBtn {
+.mobile{
+    height: 200px;
+    width: 150px;
+    background-color: #555;
+      border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
+  }
 
-border-radius: 2rem;
-font-size: medium;
-}
+  .nav-list li a{color: black;}
+
+  .nav-list li a:hover{text-decoration: none;}
 
 @media only screen and (max-width: 600px) {
     a.navbar-brand{
